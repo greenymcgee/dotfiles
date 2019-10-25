@@ -1,4 +1,5 @@
 alias cap="cd ~/code/vagrant-ofa/src/FastTRAC-capstone"
+alias events="cd ~/code/vagrant-ofa/src/events-ft"
 alias ls="ls -G"
 export HISTCONTROL=ignoreboth:erasedups
 export HISTSIZE=100000
@@ -17,3 +18,5 @@ export PS1=" \[$Color\](\[$Color2\]\u\[$Color\]@\[$Color2\]${current_host%%.*}"\
 "'s/* \(.*\)/\[$Color\]|\[$Color3\]\1/')\[$RESET\]\[$Color\])\[$RESET\] "\
 "\[$Color3\]\w\[$RESET\]\n \[$Color\](\[$Color2\]\A\[$Color\])=>\[$RESET\]"\
 '${PS2c##*[$((PS2c=0))-9]} '
+
+export PATH=$PATH:/Applications/MySQLWorkbench.app/Contents/MacOS
